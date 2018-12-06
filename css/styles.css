@@ -169,6 +169,14 @@ src: url("../fonts/RobotoCondensed-Regular.ttf");
   text-align: center;
   color:white;
 }
+.bodytitle{
+  font-family: 'Roboto_Condensed';
+	font-size:5vh;
+  margin-top: 4%;
+  margin-bottom: 0 !important;
+  text-align: center;
+  color:white;
+}
 .bodyDiv{
     padding-bottom: 5%;
     width: 80%;
