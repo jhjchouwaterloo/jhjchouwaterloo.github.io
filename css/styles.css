@@ -6,6 +6,22 @@ src: url("../fonts/OpenSans-Regular.ttf");
 font-family:'Roboto_Condensed';
 src: url("../fonts/RobotoCondensed-Regular.ttf");
 }
+@font-face {
+font-family:'Proxima';
+src: url("../fonts/Proxima.ttf");
+}
+@font-face {
+font-family:'Raleway_Light';
+src: url("../fonts/Raleway-Light.ttf");
+}
+@font-face {
+font-family:'Raleway_Regular';
+src: url("../fonts/Raleway-Regular.ttf");
+}
+@font-face {
+font-family:'Raleway_SemiBold';
+src: url("../fonts/Raleway-SemiBold.ttf");
+}
 .image{
   background-position:center;
   background-size: auto 90%;
@@ -27,6 +43,10 @@ src: url("../fonts/RobotoCondensed-Regular.ttf");
 }
 .image:hover{
   background-size: auto 100% !important;
+  transition: background-size 0.2s,-webkit-transform 0.2s;
+  -webkit-transition: -webkit-transform .2s;
+  transition: -webkit-transform .2s;
+  transition: background-size .2s;
 }
 .projects{
     background: #333131;
@@ -94,20 +114,22 @@ src: url("../fonts/RobotoCondensed-Regular.ttf");
     transition: .3s ease-out;
 }
 .titleDiv{
-    background-image: url("../img/title10.gif");
+    background-image: url("../img/title11.gif");
     background-repeat:no-repeat;
     background-size:100% 100%;
     color:white;
     background-position:center;
     text-align:center;
+    -webkit-filter: grayscale(80%); /* Safari 6.0 - 9.0 */
+    filter: grayscale(80%);
 }
 .title{
-  font-family:'Roboto_Condensed';
+  font-family:'Proxima';
   display:flex;
   font-size:10vh;
   justify-content: space-evenly;
-  padding-top: 10%;
-  padding-bottom: 10%;
+  padding-top: 15%;
+  padding-bottom: 15%;
   position:relative;
 }
 .dropdown-toggle::after {
@@ -131,11 +153,12 @@ src: url("../fonts/RobotoCondensed-Regular.ttf");
 }
 .nav-link{
   color:#e3e4e5 !important;
+  font-family: 'Raleway_Light';
 }
 .sectionTitle{
     color:white;
     padding-bottom:3%;
-    font-family: 'Roboto_Condensed';
+    font-family: 'Raleway_SemiBold';
     font-size:3vh;
     text-align: center;
     margin-top:2%;
@@ -162,7 +185,7 @@ src: url("../fonts/RobotoCondensed-Regular.ttf");
   font-weight: bold;
 }
 .bodytext{
-  font-family: 'Roboto_Condensed';
+  font-family: 'Raleway_Regular';
 	font-size:3vh;
   margin-top: 4%;
   margin-bottom: 0 !important;
@@ -170,7 +193,7 @@ src: url("../fonts/RobotoCondensed-Regular.ttf");
   color:white;
 }
 .bodytitle{
-  font-family: 'Roboto_Condensed';
+  font-family: 'Raleway_SemiBold';
 	font-size:5vh;
   margin-top: 4%;
   margin-bottom: 0 !important;
@@ -191,6 +214,7 @@ src: url("../fonts/RobotoCondensed-Regular.ttf");
 .cardTitleDiv{
   border-bottom: 2px solid black;
   margin-bottom: 2%;
+  font-family: 'Raleway_Regular';
 }
 .subHeading{
   border-bottom: 2px solid black;
@@ -199,7 +223,15 @@ src: url("../fonts/RobotoCondensed-Regular.ttf");
 .card-text{
   margin-bottom: 3% !important;
   font-size: 2.7vh !important;
+  font-family: 'Raleway_Light';
 }
 .card{
   border-radius: 2rem; !important;
+}
+.icon-link:hover{
+  transform: translateY(-10px);
+  transition: transform .2s,-webkit-transform .2s;
+  -webkit-transition: -webkit-transform .2s;
+  transition: -webkit-transform .2s;
+  transition: transform .2s;
 }
