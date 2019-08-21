@@ -65,17 +65,17 @@
 }
 
 .experience {
-    background: #4C5C68 !important;
+    background: #2b2d2e !important;
     padding-top: 3%;
 }
 
 .about {
-    background: #46494C !important;
+    background: #343638 !important;
     padding-top: 3%;
 }
 
 .contact {
-    background: #333131 !important;
+    background: #232324 !important;
     padding-top: 3%;
 }
 
@@ -135,7 +135,8 @@
 }
 
 .titleDiv {
-    background-image: url("../img/title12.gif");
+    /*background-image: url("../img/copenhagen.jpg");*/
+    background-color: #383631;
     /*background-repeat: no-repeat;*/
     background-size: 100% 100%;
     color: white;
@@ -161,7 +162,7 @@
 
 .navbar {
     font-size: 3vh;
-    background-color: #140606 !important;
+    background-color: #46494C !important;
 }
 
 .homeIcon {
